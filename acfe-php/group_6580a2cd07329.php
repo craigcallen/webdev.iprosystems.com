@@ -49,7 +49,7 @@ acf_add_local_field_group(array(
 			'name' => 'arg_featured_item_start_date',
 			'aria-label' => '',
 			'type' => 'date_picker',
-			'instructions' => '',
+			'instructions' => 'Please select a start date.',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -57,13 +57,11 @@ acf_add_local_field_group(array(
 				'class' => '',
 				'id' => '',
 			),
-			'acfe_permissions' => '',
-			'acfe_save_meta' => 0,
-			'instruction_placement' => '',
 			'hide_field' => '',
 			'hide_label' => '',
 			'hide_instructions' => '',
 			'hide_required' => '',
+			'acfe_save_meta' => 0,
 			'display_format' => 'F j, Y',
 			'return_format' => 'F j, Y',
 			'first_day' => 0,
@@ -73,6 +71,8 @@ acf_add_local_field_group(array(
 			'no_weekends' => 0,
 			'acfe_settings' => '',
 			'acfe_validate' => '',
+			'instruction_placement' => '',
+			'acfe_permissions' => '',
 		),
 		array(
 			'key' => 'field_6580a2cd45ecb',
@@ -205,7 +205,7 @@ acf_add_local_field_group(array(
 	'acfe_permissions' => '',
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1702930102,
+	'modified' => 1703019494,
 ));
 
 endif;
