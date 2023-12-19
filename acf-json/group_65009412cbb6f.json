@@ -1,0 +1,164 @@
+{
+    "key": "group_65009412cbb6f",
+    "title": "Rewards",
+    "fields": [
+        {
+            "key": "field_65009412d067b",
+            "label": "Rewards File",
+            "name": "arg_rewards_file",
+            "aria-label": "",
+            "type": "file",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_field": "",
+            "hide_label": "",
+            "hide_instructions": "",
+            "hide_required": "",
+            "acfe_save_meta": 0,
+            "uploader": "basic",
+            "return_format": "url",
+            "preview_style": "default",
+            "upload_folder": "Add Rewards",
+            "button_label": "Add Rewards File",
+            "stylised_button": 1,
+            "file_count": 0,
+            "multiple": 0,
+            "max": "",
+            "acfe_settings": "",
+            "acfe_validate": "",
+            "min_size": "",
+            "max_size": 8,
+            "mime_types": "pdf",
+            "instruction_placement": "",
+            "acfe_permissions": "",
+            "library": "all",
+            "placeholder": "Select",
+            "min": ""
+        },
+        {
+            "key": "field_65009412d06b8",
+            "label": "Rewards Start Date",
+            "name": "arg_rewards_start_date",
+            "aria-label": "",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "display_format": "F j, Y",
+            "return_format": "Y-m-d",
+            "first_day": 0,
+            "placeholder": "",
+            "min_date": "",
+            "max_date": "",
+            "no_weekends": 0
+        },
+        {
+            "key": "field_65009412d0746",
+            "label": "Rewards End Date",
+            "name": "arg_rewards_end_date",
+            "aria-label": "",
+            "type": "date_picker",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "50",
+                "class": "",
+                "id": ""
+            },
+            "acfe_save_meta": 0,
+            "display_format": "F j, Y",
+            "return_format": "Y-m-d",
+            "first_day": 0,
+            "placeholder": "",
+            "min_date": "",
+            "max_date": "",
+            "no_weekends": 0
+        },
+        {
+            "key": "field_65009412d0782",
+            "label": "Rewards Location",
+            "name": "arg_rewards_location",
+            "aria-label": "",
+            "type": "relationship",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "hide_field": "",
+            "hide_label": "",
+            "hide_instructions": "",
+            "hide_required": "",
+            "acfe_save_meta": 0,
+            "post_type": [
+                "location"
+            ],
+            "post_status": "",
+            "taxonomy": "",
+            "filters": [
+                "search",
+                "taxonomy"
+            ],
+            "return_format": "object",
+            "acfe_add_post": 0,
+            "acfe_edit_post": 1,
+            "acfe_bidirectional": {
+                "acfe_bidirectional_enabled": "1",
+                "acfe_bidirectional_related": ""
+            },
+            "acfe_settings": "",
+            "acfe_validate": "",
+            "min": "",
+            "max": "",
+            "instruction_placement": "",
+            "acfe_permissions": "",
+            "elements": "",
+            "bidirectional": 0,
+            "bidirectional_target": []
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "reward"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "",
+    "show_in_rest": 1,
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "acfe_form": 1,
+    "acfe_display_title": "Customer Rewards • Powered by Alliance Retail Group",
+    "acfe_permissions": "",
+    "acfe_meta": "",
+    "acfe_note": "",
+    "modified": 1700161020
+}

@@ -1,0 +1,43 @@
+{
+    "name": "circular-type",
+    "label": "Circular Type",
+    "active": true,
+    "post_types": [
+        "circular"
+    ],
+    "description": "",
+    "hierarchical": true,
+    "public": true,
+    "publicly_queryable": true,
+    "update_count_callback": "",
+    "meta_box_cb": null,
+    "sort": false,
+    "labels": [],
+    "show_ui": true,
+    "show_in_menu": true,
+    "show_in_nav_menus": true,
+    "show_tagcloud": true,
+    "show_in_quick_edit": true,
+    "show_admin_column": true,
+    "rewrite": true,
+    "show_in_rest": true,
+    "rest_base": "circular-types",
+    "rest_controller_class": "WP_REST_Terms_Controller",
+    "acfe_single_template": "",
+    "acfe_single_ppp": 10,
+    "acfe_single_orderby": "date",
+    "acfe_single_order": "DESC",
+    "acfe_single_meta_key": "",
+    "acfe_single_meta_type": "",
+    "acfe_admin_ppp": 10,
+    "acfe_admin_orderby": "name",
+    "acfe_admin_order": "ASC",
+    "acfe_admin_meta_key": "",
+    "acfe_admin_meta_type": "",
+    "acfe_autosync": [
+        "php",
+        "json"
+    ],
+    "capabilities": [],
+    "modified": 1700161436
+}
