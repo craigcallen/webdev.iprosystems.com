@@ -49,7 +49,7 @@ acf_add_local_field_group(array(
 			'name' => 'arg_featured_item_start_date',
 			'aria-label' => '',
 			'type' => 'date_picker',
-			'instructions' => 'Please select a start date.',
+			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -205,7 +205,7 @@ acf_add_local_field_group(array(
 	'acfe_permissions' => '',
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1703019494,
+	'modified' => 1703019657,
 ));
 
 endif;
