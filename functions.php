@@ -26,7 +26,7 @@ include( get_stylesheet_directory() . '/includes/expire-weekly-ads.php' );
 include( get_stylesheet_directory() . '/includes/favicon-admin-area.php' );
 //include( get_stylesheet_directory() . '/includes/force-2fa-user-roles.php' );
 include( get_stylesheet_directory() . '/includes/pdf-cleanup.php' );
-include( get_stylesheet_directory() . '/includes/ramey-rewards-points.php' );
+//include( get_stylesheet_directory() . '/includes/ramey-rewards-points.php' );
 include( get_stylesheet_directory() . '/includes/redirect-cpt-array.php' );
 include( get_stylesheet_directory() . '/includes/redirect-weekly-ads.php' );
 include( get_stylesheet_directory() . '/includes/remove-modify-excerpt.php' );
