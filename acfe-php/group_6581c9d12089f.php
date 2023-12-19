@@ -48,6 +48,27 @@ acf_add_local_field_group(array(
 			'prepend' => '',
 			'append' => '',
 		),
+		array(
+			'key' => 'field_6581d09cecc9a',
+			'label' => 'Local Test Sync Field 3',
+			'name' => 'local_test_sync_field_3',
+			'aria-label' => '',
+			'type' => 'text',
+			'instructions' => '',
+			'required' => 0,
+			'conditional_logic' => 0,
+			'wrapper' => array(
+				'width' => '',
+				'class' => '',
+				'id' => '',
+			),
+			'acfe_save_meta' => 0,
+			'default_value' => '',
+			'maxlength' => '',
+			'placeholder' => '',
+			'prepend' => '',
+			'append' => '',
+		),
 	),
 	'location' => array(
 		array(
@@ -75,7 +96,7 @@ acf_add_local_field_group(array(
 	'acfe_display_title' => '',
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1703005224,
+	'modified' => 1703006373,
 ));
 
 endif;
