@@ -12,7 +12,7 @@ acf_add_local_field_group(array(
 			'name' => 'arg_featured_item_image',
 			'aria-label' => '',
 			'type' => 'image',
-			'instructions' => 'Image must be a JPG and at a 850x850 resolution.',
+			'instructions' => 'Image must be a JPG and at a 850x850 resolution. TEST',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -20,13 +20,11 @@ acf_add_local_field_group(array(
 				'class' => '',
 				'id' => '',
 			),
-			'acfe_permissions' => '',
-			'acfe_save_meta' => 0,
-			'instruction_placement' => '',
 			'hide_field' => '',
 			'hide_label' => '',
 			'hide_instructions' => '',
 			'hide_required' => '',
+			'acfe_save_meta' => 0,
 			'uploader' => 'wp',
 			'return_format' => 'url',
 			'library' => 'all',
@@ -41,6 +39,8 @@ acf_add_local_field_group(array(
 			'max_height' => 850,
 			'max_size' => '',
 			'mime_types' => 'jpg, jpeg',
+			'instruction_placement' => '',
+			'acfe_permissions' => '',
 			'preview_size' => 'thumbnail',
 		),
 		array(
@@ -205,7 +205,7 @@ acf_add_local_field_group(array(
 	'acfe_permissions' => '',
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1703019657,
+	'modified' => 1703020281,
 ));
 
 endif;
