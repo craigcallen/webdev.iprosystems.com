@@ -12,7 +12,7 @@ acf_add_local_field_group(array(
 			'name' => 'arg_featured_item_image',
 			'aria-label' => '',
 			'type' => 'image',
-			'instructions' => 'Image must be a JPG and at a 850x850 resolution. TEST',
+			'instructions' => 'Image must be a JPG and at a 850x850 resolution.',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -205,7 +205,7 @@ acf_add_local_field_group(array(
 	'acfe_permissions' => '',
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1703020281,
+	'modified' => 1703020412,
 ));
 
 endif;
