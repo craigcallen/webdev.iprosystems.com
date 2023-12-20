@@ -34,7 +34,7 @@ acf_add_local_field_group(array(
 					'name' => 'arg_department_icon',
 					'aria-label' => '',
 					'type' => 'select',
-					'instructions' => 'Connor - Do you see this?',
+					'instructions' => 'Connor - Do you see this? V2',
 					'required' => 0,
 					'conditional_logic' => 0,
 					'wrapper' => array(
@@ -389,7 +389,7 @@ acf_add_local_field_group(array(
 	'acfe_display_title' => 'Departments • Powered by Alliance Retail Group',
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1703088574,
+	'modified' => 1703089738,
 ));
 
 endif;
