@@ -47,6 +47,7 @@
                         "myicons-solid--carrot-solid": "Carrot",
                         "myicons-solid--cart-shopping-solid": "Cart Shopping",
                         "myicons-solid--cheese-swiss-solid": "Cheese",
+                        "myicons-solid--hot-mug-solid": "Coffee Mug Hot",
                         "myicons-solid--crab-solid": "Crab",
                         "myicons-solid--crate-apple-solid": "Crate with Apples",
                         "myicons-solid--cupcake-solid": "Cupcake",
@@ -381,5 +382,5 @@
     "acfe_display_title": "Departments • Powered by Alliance Retail Group",
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1703027406
+    "modified": 1703087732
 }
