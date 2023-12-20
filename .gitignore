@@ -17,10 +17,10 @@ wp-content/advanced-cache.php
 wp-content/wp-cache-config.php
 wp-content/cache/*
 wp-content/cache/supercache/*
-wp-content/themes/iprosystems/css/theme.css
-wp-content/themes/iprosystems/css/theme.1.css
-wp-content/themes/iprosystems/css/theme.1.rtl.css
-wp-content/themes/iprosystems/css/theme.rtl.css
+wp-content/themes/webdev.iprosystems.com/css/theme.css
+wp-content/themes/webdev.iprosystems.com/css/theme.1.css
+wp-content/themes/webdev.iprosystems.com/css/theme.1.rtl.css
+wp-content/themes/webdev.iprosystems.com/css/theme.rtl.css
 
 # wpengine specific
 .smushit-status
