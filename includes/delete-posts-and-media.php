@@ -1,7 +1,7 @@
 <?php
 function daily_permanent_post_deletion() {
     // Define an array of custom post types to be deleted.
-    $custom_post_types = array('weekly-ad', 'promo');
+    $custom_post_types = array('weekly-ad', 'promo', 'alert', 'reward', 'featured-item');
 
     foreach ($custom_post_types as $post_type) {
         // Get all posts of the specified post type with 'trash' status.
