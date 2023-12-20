@@ -30,7 +30,7 @@
                     "name": "arg_department_icon",
                     "aria-label": "",
                     "type": "select",
-                    "instructions": "Connor - Do you see this? V4",
+                    "instructions": "Connor - Do you see this? V5",
                     "required": 0,
                     "conditional_logic": 0,
                     "wrapper": {
@@ -382,5 +382,5 @@
     "acfe_display_title": "Departments • Powered by Alliance Retail Group",
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1703090416
+    "modified": 1703091234
 }
