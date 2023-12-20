@@ -51,7 +51,7 @@ acf_add_local_field_group(array(
 						'myicons-solid--carrot-solid' => 'Carrot',
 						'myicons-solid--cart-shopping-solid' => 'Cart Shopping',
 						'myicons-solid--cheese-swiss-solid' => 'Cheese',
-						'myicons-solid--hot-mug-solid' => 'Coffee Mug Hot',
+						'myicons-solid--mug-hot-solid' => 'Coffee Mug Hot',
 						'myicons-solid--crab-solid' => 'Crab',
 						'myicons-solid--crate-apple-solid' => 'Crate with Apples',
 						'myicons-solid--cupcake-solid' => 'Cupcake',
@@ -389,7 +389,7 @@ acf_add_local_field_group(array(
 	'acfe_display_title' => 'Departments • Powered by Alliance Retail Group',
 	'acfe_meta' => '',
 	'acfe_note' => '',
-	'modified' => 1703087732,
+	'modified' => 1703087949,
 ));
 
 endif;
