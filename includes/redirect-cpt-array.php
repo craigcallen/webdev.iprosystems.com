@@ -1,7 +1,7 @@
 <?php
 function redirect_custom_post_types_to_homepage() {
     // Array of custom post types to redirect
-    $custom_post_types = array('alert', 'promo', 'reward', 'slider', 'version');
+    $custom_post_types = array('alert', 'promo', 'reward', 'slider', 'featured-item');
 
     // Check if the current query is for any of the specified custom post types
     if (is_singular($custom_post_types)) {
