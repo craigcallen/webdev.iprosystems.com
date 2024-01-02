@@ -12,7 +12,7 @@ acf_add_local_field_group(array(
 			'name' => 'arg_weekly_ads_files',
 			'aria-label' => '',
 			'type' => 'file',
-			'instructions' => 'Test 2',
+			'instructions' => '',
 			'required' => 0,
 			'conditional_logic' => 0,
 			'wrapper' => array(
@@ -171,7 +171,7 @@ acf_add_local_field_group(array(
 		),
 	),
 	'acfe_note' => '',
-	'modified' => 1703104805,
+	'modified' => 1704154880,
 ));
 
 endif;
