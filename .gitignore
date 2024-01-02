@@ -21,14 +21,14 @@
 wp-config.php
 
 # Example themes
-/wp-content/themes/webdev.iprosystems.com/css/theme.css
-/wp-content/themes/webdev.iprosystems.com/css/theme.rtl.css
-/wp-content/themes/webdev.iprosystems.com/css/theme.1.css
-/wp-content/themes/webdev.iprosystems.com/css/theme.1.rtl.css
-/wp-content/themes/iprosystems/css/theme.css
-/wp-content/themes/iprosystems/css/theme.rtl.css
-/wp-content/themes/iprosystems/css/theme.1.css
-/wp-content/themes/iprosystems/css/theme.1.rtl.css
+git rm --cached /wp-content/themes/webdev.iprosystems.com/css/theme.css
+git rm --cached /wp-content/themes/webdev.iprosystems.com/css/theme.rtl.css
+git rm --cached /wp-content/themes/webdev.iprosystems.com/css/theme.1.css
+git rm --cached /wp-content/themes/webdev.iprosystems.com/css/theme.1.rtl.css
+git rm --cached /wp-content/themes/iprosystems/css/theme.css
+git rm --cached /wp-content/themes/iprosystems/css/theme.rtl.css
+git rm --cached /wp-content/themes/iprosystems/css/theme.1.css
+git rm --cached /wp-content/themes/iprosystems/css/theme.1.rtl.css
 
 # Example plugin
 /wp-content/plugins/hello.php
