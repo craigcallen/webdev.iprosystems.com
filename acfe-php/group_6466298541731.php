@@ -64,7 +64,7 @@ acf_add_local_field_group(array(
 			'hide_instructions' => '',
 			'hide_required' => '',
 			'acfe_save_meta' => 0,
-			'display_format' => 'm/d/Y',
+			'display_format' => 'F j, Y',
 			'return_format' => 'Y-m-d',
 			'first_day' => 0,
 			'placeholder' => '',
@@ -171,7 +171,7 @@ acf_add_local_field_group(array(
 		),
 	),
 	'acfe_note' => '',
-	'modified' => 1704154880,
+	'modified' => 1704484459,
 ));
 
 endif;
