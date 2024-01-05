@@ -2,7 +2,5 @@
 # https://github.com/github/gitignore/blob/main/WordPress.gitignore
 
 # CSS Files for iPro Theme
-/css/theme.css
-/css/theme.rtl.css
-/css/theme.1.css
-/css/theme.1.rtl.css
+/css/
+!/css/custom.css
