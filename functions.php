@@ -3,22 +3,6 @@
 Custom functions developed by Craig Allen • https://craigcallen.com • me@craigcallen.com
 ***************************************************************************************/
 
-//Filter functions between multisites
-global $blog_id;
-//Custom functions for Website Instance
-if ($blog_id == 1) {
-    include( get_stylesheet_directory() . '/includes/mobile-app/common-s3-bucket.php' );
-  
-} 
-//Custom functions for Mobile App Insance
-if ($blog_id == 2) {
-    include( get_stylesheet_directory() . '/includes/mobile-app/common-s3-bucket.php' );
-  
-}
-else {
-  
-}
-
 include( get_stylesheet_directory() . '/includes/404-redirect.php' );
 include( get_stylesheet_directory() . '/includes/acf-google-maps-api-key.php' );
 include( get_stylesheet_directory() . '/includes/acf-schedule-alerts.php' );
