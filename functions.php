@@ -12,11 +12,13 @@ if ($blog_id == 1) {
 } 
 //Custom functions for PWA Instance
 if ($blog_id == 2) {
-    include( get_stylesheet_directory() . '/includes/pwa/pwa-custom-meta-tags.php' );
+    //include( get_stylesheet_directory() . '/includes/pwa/pwa-custom-meta-tags.php' );
   
 }
 
 else {
+  
+}
 
 include( get_stylesheet_directory() . '/includes/404-redirect.php' );
 include( get_stylesheet_directory() . '/includes/acf-google-maps-api-key.php' );
@@ -48,5 +50,3 @@ include( get_stylesheet_directory() . '/includes/remove-modify-excerpt.php' );
 include( get_stylesheet_directory() . '/includes/remove-yoast-filters.php' );
 include( get_stylesheet_directory() . '/includes/site-title-shortcode.php' );
 include( get_stylesheet_directory() . '/includes/user-last-login.php' );
-
-}
