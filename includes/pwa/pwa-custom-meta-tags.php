@@ -8,10 +8,10 @@ add_action( 'wp_head', function () { ?>
 <meta name="apple-mobile-web-app-status-bar-style" content="dark">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<link rel="manifest" href="/pwa/manifest.json">
+<link rel="manifest" href="https://multisite.iprosystems.com/pwa/manifest.json">
 <script src="/pwa/safari-links.js"></script>
 <script src="https://kit.fontawesome.com/4525b274fc.js" crossorigin="anonymous"></script>
-<script src="/pwa/pwabuilder-sw.js"></script>
-<script src="/pwa/pwabuilder-sw-register.js" type="module"></script>
+<script src="https://multisite.iprosystems.com/pwa/pwabuilder-sw.js"></script>
+<script src="https://multisite.iprosystems.com/pwa/pwabuilder-sw-register.js" type="module"></script>
 
 <?php } );

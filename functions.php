@@ -12,7 +12,7 @@ if ($blog_id == 1) {
 } 
 //Custom functions for PWA Instance
 if ($blog_id == 2) {
-    //include( get_stylesheet_directory() . '/includes/mobile-app/pwa-custom-meta-tags.php' );
+    //include( get_stylesheet_directory() . '/includes/pwa/pwa-custom-meta-tags.php' );
   
 }
 
