@@ -27,6 +27,7 @@ acfe_register_post_type(array(
         'search_items' => 'Search Rewards',
         'not_found' => 'Reward Not Found',
         'all_items' => 'All Rewards',
+        'archives' => 'Rewards',
     ),
     'menu_position' => '',
     'menu_icon' => 'dashicons-awards',
@@ -59,6 +60,6 @@ acfe_register_post_type(array(
         'php',
         'json',
     ),
-    'modified' => 1704995623,
+    'modified' => 1704996518,
 ));
 

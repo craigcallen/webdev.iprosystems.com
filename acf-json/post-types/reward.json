@@ -24,7 +24,8 @@
         "view_items": "View Rewards",
         "search_items": "Search Rewards",
         "not_found": "Reward Not Found",
-        "all_items": "All Rewards"
+        "all_items": "All Rewards",
+        "archives": "Rewards"
     },
     "menu_position": "",
     "menu_icon": "dashicons-awards",
@@ -57,5 +58,5 @@
         "php",
         "json"
     ],
-    "modified": 1704995623
+    "modified": 1704996518
 }
